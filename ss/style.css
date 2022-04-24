@@ -1,0 +1,382 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    
+    height: 100vh;
+    width: 100%;
+}
+
+
+.main-nav{
+    float: right;
+    position: relative;
+    z-index: 1;
+    top: 36.5px;
+    
+}
+.main-nav li{
+    display: inline-block;
+    z-index: 1;
+    color: black;
+    list-style: none;
+    margin-left: 20px;
+    z-index: 1;
+    
+}
+.main-nav  li:hover{
+    border-bottom: 2px solid white;
+}
+.main-nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+   
+}
+.main-nav li a.active{
+    color:black;
+    margin-bottom: 2px solid black;
+}
+
+.main-nav :nth-child(5){
+    margin-right:770px;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    z-index: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+  .logo
+  {
+    top: 50px;
+    left: 42px;
+    position: relative;
+    width:143px;
+    height: 25.6px;
+    font-weight: 400;
+    letter-spacing: 0.1cm;
+    z-index: 1;
+    font-family: 'Krona One', sans-serif;
+
+  } 
+.logo a{
+    text-decoration: none;
+    color:white;
+    font-size: 180%;
+    opacity: 1;
+    
+}
+.typewritter{
+    
+    width: 83ch;
+    color:white;
+    font-weight: 300;
+    letter-spacing: 0.1cm;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Libre Caslon Display', serif;
+    white-space: nowrap;
+}
+.typewritter-text{
+    font-size: 400%;
+    border-right: 5px White solid;
+    display: inline-block;
+    overflow: hidden;
+    animation: typewriter 7s steps(40,end), blink .75s step-end infinite;
+
+}
+
+.logo:hover{
+    /*do it later*/
+}
+
+.second-page-text{
+    position: relative;
+    background-attachment: fixed;
+    font-family: 'Krona One', sans-serif;
+    width: 100%;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    color: black;
+    text-align: center;    
+    font-weight: 100;
+
+
+}
+.second-page-text .text1{
+    width: 1130px;
+    height: 126px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+
+}
+.second-page-text .text2{
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+}
+
+.third-page{
+    width: auto;
+    top: 30px;
+    position: relative;
+    height: 451px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;    
+
+}
+.img-container{
+    overflow: hidden;
+    
+
+}
+.image{
+    position: relative;
+    opacity: 1;   
+}
+
+.flex-text-container{
+    z-index: 10;
+    position: absolute;
+    top: 0%;
+    padding: 28px;
+}
+.flex-text-container a{
+    text-decoration: none;
+    width: 609px;
+    color: transparent;
+    
+}
+.flex-text-container li{
+    list-style: none;
+    top: 0px;
+}
+.img-container:hover .flex-text-container a{
+    transition: 1.5s;
+    color: white;
+   
+}
+.img-container:hover img{
+    transition: 1.5s;
+    filter: brightness(10%);
+    transform: scale(1.18);
+}
+
+.fourth-page{
+    position: relative;
+    background-attachment: fixed;
+    font-family: 'caslon', serif;   
+    min-width: 100%;
+    min-height: 100%;
+    color: white;
+    height: 100vh;
+    text-align: center;    
+    font-weight: 100;
+
+}
+.fourth-page-txt1{
+    width: 1130px;
+    height: 58px;
+    position: absolute;
+    z-index: 2;
+    top:36%;
+    left: -7%;
+    transform: translate(0%,-50%);
+    font-size: 50.5px;
+    letter-spacing: 0.03cm;
+}
+.fourth-page-txt0{
+    width: 1130px;
+    height: 58px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;    
+    top:36%;
+    left: -3%;
+    transform: translate(0%,-50%);
+    font-size: 50.5px;
+    letter-spacing: 0.03cm;
+}
+.fourth-page-txt0 a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.fourth-page-txt2{
+    width: 822px;
+    height: 125px;
+    position: absolute;
+    text-align: left;
+    left: 42px;
+    top:100%;
+    z-index: 3;
+    letter-spacing: .07cm;
+    transform: translate(0%,-50%);
+    font-size: 56px;
+
+}
+.contain{
+    width: 1000px;
+    height: 150px;
+    position: relative;
+    z-index: 1;    
+    top:36%;
+    left: 12%;
+    transform: translate(0%,-50%);
+    text-align: center;
+}
+
+.fifth-page{
+    position: relative;
+    background-attachment: fixed;
+    font-family: 'Krona One', sans-serif;   
+    min-width: 100%;
+    min-height: 100%;
+    color: white;
+    background: black;
+    height: 210vh;
+    text-align: center;    
+    align-items: center;
+    font-weight: 100;
+
+}
+.fourth-page {
+background: -webkit-linear-gradient(top, #FFFFFF, #000000fb);
+background: -moz-linear-gradient(top, #FFFFFF, #000000fb);
+background: linear-gradient(to bottom, #FFFFFF, #000000fb);
+
+}
+.fifth-page {
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.985), #000000);
+    background: -moz-linear-gradient(top,  rgba(0, 0, 0, 0.985), #000000);
+    background: linear-gradient(to bottom,  rgba(0, 0, 0, 0.985), #000000);
+}   
+
+.fifth-page-txt{
+    width: 1130px;
+    height: 126px;    
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    
+    
+}
+#myVideo2{
+    position: absolute;
+    z-index: 10;
+    top:40%;
+    left: 54px;
+    width: 1233px;
+    height: 693px;    
+    background-attachment: fixed;
+}
+
+.line-text{
+    position: relative;
+    background-attachment: fixed;
+    font-family: 'caslon', serif;   
+    min-width: 100%;
+    min-height: 100%;
+    color: black;
+    height: 90vh;
+    font-size: 52px;  
+    font-weight: 100;
+
+}
+.line-text .txt4{
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%,-50%);
+
+}
+
+footer{
+    position: relative;
+    background-attachment: fixed;
+    font-family: 'caslon', serif;   
+    min-width: 100%;
+    min-height: 100%;
+    color: white;
+    height: 10vh;
+    font-size: 15px;  
+    text-align: center;
+    align-items: center;
+    background: black;
+    font-weight: 100;
+    padding: 20px;
+
+}
+.txt-type > .txt3{
+    border-right: 1px white solid;
+}
+
+.contain:hover .fourth-page-txt0{
+    z-index: 2;
+    visibility: visible;
+
+} 
+.contain:hover .fourth-page-txt1{
+    z-index: 0;    
+    visibility: hidden;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes typewriter {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: white; 
+    }
+}
+
+
